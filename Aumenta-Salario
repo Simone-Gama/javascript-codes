@@ -1,0 +1,11 @@
+let salario = 1500
+
+if(salario <= 2000){
+    let sal_aumenta =  salario + (salario * 0.10)
+    console.log("Salário < 2000")
+    console.log("Novo Salário:", sal_aumenta)
+}else{
+    let sal_aumenta =  salario + (salario * 15/100)
+    console.log("Salário > 2000")
+    console.log("Novo Salário:", sal_aumenta)
+}
